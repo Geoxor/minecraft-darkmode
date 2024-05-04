@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },
+	"overrides": [
+        {"predicate":{"custom_model_data":509},"model":"item/advancedenchantments/air"},
+        {"predicate":{"custom_model_data":510},"model":"item/advancedenchantments/confirm"},
+        {"predicate":{"custom_model_data":511},"model":"item/advancedenchantments/unconfirm"},
+        {"predicate":{"custom_model_data":512},"model":"item/advancedenchantments/confirm2"},
+        {"predicate":{"custom_model_data":513},"model":"item/advancedenchantments/unconfirm2"}
+      ]
+    }

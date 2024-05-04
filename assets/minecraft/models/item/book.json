@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/book"
+  },
+	"overrides": [
+        {"predicate":{"custom_model_data":500},"model":"item/advancedenchantments/simple_book"},
+        {"predicate":{"custom_model_data":501},"model":"item/advancedenchantments/unique_book"},
+        {"predicate":{"custom_model_data":502},"model":"item/advancedenchantments/elite_book"},
+        {"predicate":{"custom_model_data":503},"model":"item/advancedenchantments/ultimate_book"},
+        {"predicate":{"custom_model_data":504},"model":"item/advancedenchantments/legend_book"},
+        {"predicate":{"custom_model_data":505},"model":"item/advancedenchantments/fabled_book"}
+      ]
+    }
